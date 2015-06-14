@@ -41,6 +41,7 @@ static void main_window_load(Window *window) {
   text_layer_set_text_alignment(s_time_layer, GTextAlignmentCenter);
   
   layer_add_child(window_get_root_layer(window), text_layer_get_layer(s_time_layer));
+  update_time();
 }
 
 static void main_window_unload(Window *window) {
