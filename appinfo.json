@@ -1,7 +1,10 @@
 {
-    "appKeys": {},
+    "appKeys": {
+        "KEY_CONDITIONS": 1,
+        "KEY_TEMPERATURE": 0
+    },
     "capabilities": [
-        ""
+        "location"
     ],
     "companyName": "cyberskunk",
     "longName": "Tutorial1",
@@ -12,6 +15,11 @@
                 "file": "images/background.png",
                 "name": "BACKGROUND_TEST",
                 "type": "png"
+            },
+            {
+                "file": "fonts/perfect-dos-vga.ttf",
+                "name": "FONT_PERFECT_DOS_20",
+                "type": "font"
             },
             {
                 "characterRegex": "[0-9:.]",
